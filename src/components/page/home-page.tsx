@@ -2,6 +2,8 @@ import {
   WalletMultiButton,
   WalletDisconnectButton,
 } from "@solana/wallet-adapter-react-ui";
+import TokenLaunchPad from "../token-launchpad";
+
 
 function HomePage() {
   return (
@@ -10,7 +12,7 @@ function HomePage() {
         <WalletMultiButton />
         <WalletDisconnectButton />
       </div>
-      Home page
+      <TokenLaunchPad />
     </div>
   );
 }
